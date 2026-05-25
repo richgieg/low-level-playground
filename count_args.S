@@ -14,6 +14,8 @@ _start:
 #elif defined(__aarch64__)
 
 _start:
-	// TODO: implement
+	ldr x0, [sp]
+	mov x8, #93				// syscall: exit
+	svc #0
 
 #endif
