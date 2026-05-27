@@ -1,0 +1,6 @@
+*
+!.gitignore
+!fake_device.c
+!fake_driver.c
+!Makefile
+!sign.sh
