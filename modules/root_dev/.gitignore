@@ -1,0 +1,5 @@
+*
+!.gitignore
+!root_dev.c
+!Makefile
+!sign.sh
